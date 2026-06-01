@@ -43,4 +43,4 @@ ocean-freight-sql-analytics/
 
 ## Author
 Jaspreet | Ocean Import Coordinator → Supply Chain Analyst
-8+ years in freight forwarding | CEVA Logistics | Greater Toronto Area
+8+ years in freight forwarding | Greater Toronto Area
