@@ -1,46 +1,137 @@
+<div align="center">
+
 # 🚢 Ocean Freight SQL Analytics
 
-## Project Overview
-Analysis of 5,000 ocean freight shipments using SQL to uncover carrier performance,
-delivery delays, route efficiency, and freight cost trends.
-Built to demonstrate SQL proficiency for Supply Chain Analyst roles.
+<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Rows-5%2C000-FF6B35?style=for-the-badge"/>
 
-## Business Questions Answered
-- Which carriers have the worst on-time delivery rates?
-- What delay reasons cause the most disruption?
-- Which trade routes carry the highest cargo value?
-- How does freight revenue trend month over month?
-- Which customers ship the highest value commodities?
+**End-to-end SQL analytics project on ocean freight shipment data — built to demonstrate supply chain analyst skills**
 
-## Dataset
-- 5,000 shipment records (2022–2024)
-- 22 columns including BOL number, carrier, POL/POD, incoterms,
-  container type, freight rates, cargo value and delay data
-- Modeled on real ocean freight operations
+</div>
 
-## SQL Skills Demonstrated
-| Level | Concepts |
+---
+
+## 📌 Project Overview
+
+This project analyzes **5,000 ocean freight shipments** spanning 2022–2024 across major global trade lanes. Using MySQL, I explored carrier performance, delivery reliability, route profitability, and freight cost trends — translating raw logistics data into actionable business insights.
+
+---
+
+## ❓ Business Questions Answered
+
+| # | Business Question | SQL Concept Used |
+|---|---|---|
+| 1 | How many total shipments were processed? | `COUNT` |
+| 2 | Which carriers operate on our lanes? | `DISTINCT` |
+| 3 | Which shipments were delayed and by how much? | `WHERE`, `ORDER BY` |
+| 4 | Which shipments carry the highest cargo value? | `Filtering` |
+| 5 | Which carrier handles the most volume? | `GROUP BY`, `COUNT` |
+| 6 | What is the average freight rate per carrier? | `AVG`, `MIN`, `MAX` |
+| 7 | Which delay reasons cause the most disruption? | `GROUP BY`, `AVG` |
+| 8 | What is each carrier's on-time delivery rate? | `CASE WHEN`, calculated % |
+| 9 | Which ports load the highest value cargo? | `SUM`, `AVG` |
+| 10 | How does freight revenue trend year over year? | `YEAR()`, `SUM` |
+| 11 | Which carriers perform worse than average? | `Subquery`, `HAVING` |
+| 12 | Which routes have the worst on-time performance? | `CTE` |
+| 13 | How do carriers rank by total revenue? | `Window` `RANK()` |
+| 14 | What is the running total of freight revenue? | `Window` `SUM() OVER` |
+| 15 | Who are the top customers per commodity? | `CTE` + `PARTITION BY` |
+
+---
+
+## 🗄️ Dataset
+
+| Field | Detail |
 |---|---|
-| Level 1 | SELECT, WHERE, DISTINCT, ORDER BY, filtering |
-| Level 2 | GROUP BY, COUNT, SUM, AVG, CASE WHEN |
-| Level 3 | Subqueries, CTEs, Window Functions (RANK, PARTITION BY, Running Totals) |
+| **Rows** | 5,000 shipments |
+| **Period** | January 2022 – December 2024 |
+| **Source** | Custom generated — modeled on real ocean freight operations |
 
-## Tools Used
-- MySQL 8.0
-- Power BI (dashboard in progress)
-- GitHub
+### Key Columns
 
-## File Structure
-ocean-freight-sql-analytics/
-│
-├── data/
-│   └── ocean_freight_data.csv
-│
-├── queries/
-│   └── ocean_freight_analysis.sql
-│
-└── README.md
+| Column | Description |
+|---|---|
+| `BOL_Number` | Bill of Lading — unique shipment ID |
+| `Carrier` | Maersk, MSC, CMA CGM, Hapag-Lloyd, etc. |
+| `POL / POD` | Port of Loading / Port of Discharge |
+| `Incoterms` | FOB, CIF, EXW, DAP, CFR, DDP |
+| `Container_Type` | 20GP, 40GP, 40HC, Reefer |
+| `ETD / ETA / Actual_Arrival` | Planned vs actual shipment dates |
+| `Delay_Days` | Number of days late |
+| `On_Time_Delivery` | Yes / No |
+| `Delay_Reason` | Port Congestion, Customs, Weather, etc. |
+| `Freight_Rate_USD` | Rate per container |
+| `Total_Freight_USD` | Rate × number of containers |
+| `Cargo_Value_USD` | Total value of shipment cargo |
 
-## Author
-Jaspreet | Ocean Import Coordinator → Supply Chain Analyst
-8+ years in freight forwarding | Greater Toronto Area
+---
+
+## 🧠 SQL Skills Demonstrated
+
+Level 1 — Foundations
+--- SELECT, WHERE, DISTINCT
+--- ORDER BY, LIMIT
+--- Comparison & logical operators
+
+Level 2 — Aggregations
+--- GROUP BY, HAVING
+--- COUNT, SUM, AVG, MIN, MAX
+--- CASE WHEN (conditional logic)
+--- Date functions — YEAR(), MONTH()
+
+Level 3 — Advanced
+--- Subqueries (correlated & scalar)
+--- CTEs — WITH clause
+--- Window Functions
+--- RANK() OVER
+--- PARTITION BY
+--- Running totals with SUM() OVER
+
+---
+
+## 📁 File Structure
+
+Ocean-freight-sql-analytics/
+📂 data/
+
+Ocean_freight_data.csv       # 5,000 row shipment dataset
+📂 queries/
+
+ocean_freight_analysis.sql   # All 16 queries L1 → L3
+
+README.md
+---
+
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| MySQL 8.0 | Database creation, all SQL queries |
+| Power BI | Dashboard & visualization *(in progress)* |
+| GitHub | Version control & portfolio hosting |
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Generate custom ocean freight dataset
+- [x] Build MySQL database and import data
+- [x] Write Level 1 SQL queries (foundations)
+- [x] Write Level 2 SQL queries (aggregations)
+- [x] Write Level 3 SQL queries (CTEs, subqueries, window functions)
+- [ ] Build Power BI dashboard
+- [ ] Add second project — Inventory Optimization Model
+
+---
+
+## 👤 About Me
+
+**Jaspreet** | Ocean Import Coordinator → Supply Chain Analyst
+
+8+ years in freight forwarding across ocean & air import/export operations.
+Currently building an analytics portfolio to transition into a data-driven supply chain role.
+
+https://www.linkedin.com/in/jaspreet-singh-5b13b510b/
+
