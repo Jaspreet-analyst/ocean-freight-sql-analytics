@@ -121,7 +121,7 @@ README.md
 - [x] Write Level 1 SQL queries (foundations)
 - [x] Write Level 2 SQL queries (aggregations)
 - [x] Write Level 3 SQL queries (CTEs, subqueries, window functions)
-- [ ] Build Power BI dashboard
+- [x] Build Tableau Public dashboard
 - [ ] Add second project — Inventory Optimization Model
 
 ---
@@ -132,6 +132,10 @@ README.md
 
 8+ years in freight forwarding across ocean & air import/export operations.
 Currently building an analytics portfolio to transition into a data-driven supply chain role.
+
+[![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/jaspreet.singh5400/viz/OceanFreightAnalyticsDashboard)
+
+📄 [Read the Case Study](CASE_STUDY.md)
 
 https://www.linkedin.com/in/jaspreet-singh-5b13b510b/
 
