@@ -122,7 +122,9 @@ README.md
 
 ## 👤 About Me
 
-**Jaspreet Singh** | Ocean Import Coordinator | CEVA Logistics — Greater Toronto Area
+**Jaspreet Singh** | Ocean Import Agent | Supply Chain Analyst — Greater Toronto Area
+
+
 
 8+ years across ocean import, air freight and supply chain operations with hands-on experience in carrier negotiations, D&D cost recovery, cold chain management and key account operations.
 
