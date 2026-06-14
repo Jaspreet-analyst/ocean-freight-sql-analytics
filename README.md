@@ -2,11 +2,6 @@
 
 # 🚢 Ocean Freight SQL Analytics
 
-<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/Status-Active-00C853?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Rows-5%2C000-FF6B35?style=for-the-badge"/>
-
 **End-to-end SQL analytics project on ocean freight shipment data — built to demonstrate supply chain analyst skills**
 
 </div>
@@ -122,16 +117,14 @@ README.md
 - [x] Write Level 2 SQL queries (aggregations)
 - [x] Write Level 3 SQL queries (CTEs, subqueries, window functions)
 - [x] Build Tableau Public dashboard
-- [ ] Add second project — Inventory Optimization Model
 
 ---
 
 ## 👤 About Me
 
-**Jaspreet** | Ocean Import Coordinator → Supply Chain Analyst
+**Jaspreet Singh** | Ocean Import Coordinator | CEVA Logistics — Greater Toronto Area
 
-8+ years in freight forwarding across ocean & air import/export operations.
-Currently building an analytics portfolio to transition into a data-driven supply chain role.
+8+ years across ocean import, air freight and supply chain operations with hands-on experience in carrier negotiations, D&D cost recovery, cold chain management and key account operations.
 
 [![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/jaspreet.singh5400/viz/OceanFreightAnalyticsDashboard)
 
