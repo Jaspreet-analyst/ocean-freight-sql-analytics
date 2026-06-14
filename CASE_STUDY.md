@@ -1,6 +1,7 @@
 # 📦 Case Study: Ocean Freight Analytics Dashboard
 
 **Author:** Jaspreet Singh | Ocean Import Agent | Supply Chain Analyst — Greater Toronto Area
+
 **Tools:** MySQL · Tableau Public · GitHub  
 **Dataset:** 5,000 ocean freight shipments | 2022–2024  
 **Live Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/jaspreet.singh5400/viz/OceanFreightAnalyticsDashboard)  
